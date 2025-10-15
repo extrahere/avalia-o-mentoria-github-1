@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Site com Várias Seções</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  nav {
+    background: #444;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+  }
+  nav a:hover {
+    background: #666;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  section h2 {
+    margin-top: 0;
+    color: #222;
+  }
+  ul.links-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul.links-list li {
+    margin-bottom: 10px;
+  }
+  ul.links-list li a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  ul.links-list li a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Site com Várias Seções</h1>
+</header>
+<nav>
+  <a href="#sec1">Seção 1</a>
+  <a href="#sec2">Seção 2</a>
+  <a href="#sec3">Seção 3</a>
+</nav>
+<div class="container">
+  <section id="sec1">
+    <h2>Seção 1 - Links Úteis</h2>
+    <ul class="links-list">
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+      <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    </ul>
+  </section>
+  <section id="sec2">
+    <h2>Seção 2 - Notícias</h2>
+    <ul class="links-list">
+      <li><a href="https://www.bbc.com/portuguese" target="_blank">BBC Português</a></li>
+      <li><a href="https://g1.globo.com" target="_blank">G1 Notícias</a></li>
+      <li><a href="https://www.nytimes.com" target="_blank">New York Times</a></li>
+    </ul>
+  </section>
+  <section id="sec3">
+    <h2>Seção 3 - Tecnologia</h2>
+    <ul class="links-list">
+      <li><a href="https://www.techcrunch.com" target="_blank">TechCrunch</a></li>
+      <li><a href="https://www.theverge.com" target="_blank">The Verge</a></li>
+      <li><a href="https://www.wired.com" target="_blank">Wired</a></li>
+    </ul>
+  </section>
+</div>
+<footer>
+  &copy; 2025 Site com Várias Seções. Todos os direitos reservados.
+</footer>
+</body>
+</html>
